@@ -1,27 +1,28 @@
+Alessandr R.M.
 #Comandos GIT
-'git config --global user.name "nome-usuário" ' //cadastramento
-'git config --global user.email "email-usuário" '//cadastramento
-'git config --global --list' //ver configurações do usuário
-'git clone *link-repositorio' // clona o repositório
-'git resert' //
-'git log' //vemos o histórico de commit
-'git short log' //mostra o log mais simplificado 
-'git diff' // mostra as alterações dentro de um arquivo
-'git init' //criamos um arquivo que permite o acesso dos arquivos
-'git status' //mostra os arquivos desatualizados e como estar
-'git add "nome-arquivo"' // adiciona os arquivos de forma independente 
-'git add .' //adiciona todos os arquivos que estão faltando
-'git commit -m "comentário"' //ocorre o armazenamento da versão
-'git remote add origin *link' //unir o github com o git do pc
-'git push' //empurra os arquivos para o github
-'git push --set-upstream origin master'//puxa os arquivos para a branche master
-'git pull' // puxa os arquivos que estão no github ou que sofreram alteração
-'git reflog'  //mostra as versões que foram comitadas
-'git reset -- hard *código-versão' //podemos escolher as versões do código 
-'git branch *nome-branch' //cria um novo branch
-'git branch' //mostras os branch disponiveis 
-'git checkout *nome-branch' // muda para a branch escolhida
-'git merge *nome-branch' //pega os dados de uma branch e joga na principal (vc tem que estar nra branch desejada)
-'git checkout -b *nome-branch branch-atual' // cria uma nova branch e altera para ela, e sai da que estar
-'touch .gitignore' //cria um arquivo para ocultarmos pastas e para não serem levadas para o github (nome-arqiovo.tipo) <- para ocultar | quando pasta == (nome-pasta/)
-'git commit --amend' // 
+git config --global user.name "nome-usuário" //cadastramento
+git config --global user.email "email-usuário"//cadastramento
+git config --global --list //ver configurações do usuário
+git clone *link-repositorio // clona o repositório
+git resert //
+git log //vemos o histórico de commit
+git short log //mostra o log mais simplificado 
+git diff // mostra as alterações dentro de um arquivo
+git init //criamos um arquivo que permite o acesso dos arquivos
+git status //mostra os arquivos desatualizados e como estar
+git add "nome-arquivo" // adiciona os arquivos de forma independente 
+git add . //adiciona todos os arquivos que estão faltando
+git commit -m "comentário" //ocorre o armazenamento da versão
+git remote add origin *link //unir o github com o git do pc
+git push //empurra os arquivos para o github
+git push --set-upstream origin master //puxa os arquivos para a branche master
+git pull // puxa os arquivos que estão no github ou que sofreram alteração
+git reflog  //mostra as versões que foram comitadas
+git reset -- hard *código-versão //podemos escolher as versões do código 
+git branch *nome-branch //cria um novo branch
+git branch //mostras os branch disponiveis 
+git checkout *nome-branch // muda para a branch escolhida
+git merge *nome-branch //pega os dados de uma branch e joga na principal (vc tem que estar nra branch desejada)
+git checkout -b *nome-branch branch-atual // cria uma nova branch e altera para ela, e sai da que estar
+touch .gitignore //cria um arquivo para ocultarmos pastas e para não serem levadas para o github (nome-arqiovo.tipo) <- para ocultar | quando pasta == (nome-pasta/)
+git commit --amend // 
